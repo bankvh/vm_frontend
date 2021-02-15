@@ -1,5 +1,7 @@
 # Vending Machine Vue App
 
+![App Screenshot](screenshot.png)
+
 ## Project setup
 ```
 npm install
