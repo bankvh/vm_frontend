@@ -1,4 +1,4 @@
-# vm_frontend
+# Vending Machine Vue App
 
 ## Project setup
 ```
