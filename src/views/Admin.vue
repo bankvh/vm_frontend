@@ -2,14 +2,16 @@
   <div>
       <h1>NOTIFICATIONS</h1>
       <div v-for="(message, index) in notifications" :key="index">
-          <p>{{message}}</p>
+          <notification :msg="message"/>
       </div>
   </div>
 </template>
 
 <script>
 import {API_ROUTE} from '../../api'
+import Notification from '../components/Notification.vue'
 export default {
+  components: { Notification },
   name: 'Admin',
   async created(){
     try {
